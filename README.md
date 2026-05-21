@@ -13,9 +13,9 @@
     
   <div class="contact">
     You can reach me at:
-    mail: forworktobias@gmail.com
-    LinkedIn: https://www.linkedin.com/in/tobias-eseverri/?locale=en-US
-    Discord: https://discord.gg/ujc9dEtp    
+    -Email: forworktobias@gmail.com
+    -LinkedIn: https://www.linkedin.com/in/tobias-eseverri/?locale=en-US
+    -Discord: https://discord.gg/ujc9dEtp    
   </div>
   
 </body>
