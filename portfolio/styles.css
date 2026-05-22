@@ -1,0 +1,57 @@
+:root{
+  --soft-bg-1:#f6f8ff;
+  --soft-bg-2:#eef8f1;
+  --card-bg: rgba(255,255,255,0.8);
+  --accent: #7aa2ff;
+  --muted:#64748b;
+}
+
+html,body{
+  height:100%;
+}
+
+body{
+  margin:0;
+  font-family: 'Google Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color:#16324f;
+  background: linear-gradient(135deg,var(--soft-bg-1) 0%, #fbfbff 50%, var(--soft-bg-2) 100%);
+  -webkit-font-smoothing:antialiased;
+}
+
+.soft-card{
+  background: var(--card-bg);
+  border-radius:14px;
+  box-shadow: 0 8px 24px rgba(20,30,60,0.08);
+}
+
+.navbar-brand img{border:0;}
+
+main.container{
+  max-width:960px;
+}
+
+h1{font-size:2.25rem;margin-bottom:.5rem;color:#0f1724}
+h2{font-size:1.5rem;color:#0f1724}
+
+p{color:#334155}
+
+footer{color:var(--muted)}
+
+.btn{
+  border-radius:10px;
+}
+
+/* make navbar softer */
+.navbar{
+  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(250,250,255,0.8));
+  border-bottom: 1px solid rgba(20,30,60,0.04);
+}
+
+/* responsive adjustments */
+@media (max-width:576px){
+  h1{font-size:1.5rem}
+  .soft-card{padding:1rem}
+}
+
+/* small helpers */
+.lead{color:#475569}
